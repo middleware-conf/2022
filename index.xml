@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Middleware 2022</title>
+    <link>https://midtestsite.github.io/</link>
+    <description>Recent content on Middleware 2022</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://midtestsite.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IMPORTANT DATES</title>
+      <link>https://midtestsite.github.io/important-dates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://midtestsite.github.io/important-dates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>INDUSTRY TRACK PROGRAM COMMITTEE</title>
+      <link>https://midtestsite.github.io/industry-pc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://midtestsite.github.io/industry-pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KEYNOTE SPEAKERS</title>
+      <link>https://midtestsite.github.io/keynote-speakers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://midtestsite.github.io/keynote-speakers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ORGANIZING COMMITTEE</title>
+      <link>https://midtestsite.github.io/organizing-committee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://midtestsite.github.io/organizing-committee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PROGRAM COMMITTEE</title>
+      <link>https://midtestsite.github.io/program-committee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://midtestsite.github.io/program-committee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SPONSORSHIP OPPORTUNITIES FOR MIDDLEWARE 2021</title>
+      <link>https://midtestsite.github.io/sponsorship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://midtestsite.github.io/sponsorship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WORKSHOPS</title>
+      <link>https://midtestsite.github.io/workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://midtestsite.github.io/workshops/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
