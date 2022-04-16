@@ -224,7 +224,7 @@
             <h2>Microsoft Word Instructions</h2>
             <p align="">Please download the ACM “Interim Template” Word document (Interim layout.docx) from ACM <a href="https://www.acm.org/publications/proceedings-template" target="_blank">here</a>. There is also a sample PDF file produced with the Word template. We strongly encourage you to review the sample file above so you will be aware of the mandatory sections, copyright strip information (see next step), formatting requirements, font requirements, font sizes, and spacing required for the final version.</p>
             <p align="justify">The correct ACM Middleware 2022 copyright-permission notice (generated through HotCrp) needs to be inserted in the sample files above (page 1, bottom of column 1) before you submit your final version. A custom DOI URL (also generated through HotCrp) will also need to be included.</p>
-            <p align="justify">This statement must be in 7 point Libertine font, with the first paragraph text justified, with the venue acronym/track (e.g., Middleware ‘22, or Middleware Industry ‘22) in italics. Refer to the “Interim-layout.docx” sample file to view how the ACM copyright statement should appear -- you should preserve the original formatting.</p>
+            <p align="justify">This statement must be in 7 point Libertine font, with the first paragraph text justified, with the venue acronym/track (e.g., Middleware ‘22) in italics. Refer to the “Interim-layout.docx” sample file to view how the ACM copyright statement should appear -- you should preserve the original formatting.</p>
             <h2>LaTeX Instructions</h2>
             <p align="justify"><b>Template:</b> Please use the <b>sigconf</b> proceedings template from the <a href="https://www.acm.org/publications/proceedings-template" target="_blank">ACM Master article template for LaTeX</a> (acmart class) for your submission (under the LaTeX Authors section). Please follow the instructions given on the page, and please have a look / start from the sample file “sample-sigconf.tex” in the acmart package. Even if you have already downloaded the package for another conference, you should download it again as ACM often makes changes to their template and publishes new versions. If you submit a paper using an outdated version of the template, you might be required to update to a newer version.</p>
             <p align="justify"><b>Fonts:</b> Type 1 or TrueType fonts must be used (this will usually happen by default).
@@ -232,15 +232,16 @@
             <p align="justify"><b>Camera-ready copyright header:</b> the ACM copyright form will provide a block of LaTeX code to be included in the “Rights management information” section of the header. Please double-check that your produced document matches the copyright info details found in HotCrp, and that you have included your full DOI URL.</p>
             <h2>Other Information:</h2>
             <p align="justify">Please continue reading for additional information on preparing your final paper.</p>
-            <p align="justify"><h4>Page limit</h4>
-            <p align="justify">Papers must have at most 12 pages of technical content, including text, figures, and appendices, but excluding any number of additional pages for bibliographic references. Font size of 10pt and 9pt are acceptable.</p>
+            <p align="justify"><h4>Font size and page limit</h4>
+            <p align="justify">Font sizes of 10 pt and 9 pt are acceptable (unlike original submissions which required a font size of 10 pt only)</p>
+            <p align="justify">The following page limits applies:</p>
+            <p align="justify"><b>Research Papers:</b> Papers must have at most 12 pages of technical content, including text, figures, and appendices, but excluding any number of additional pages for bibliographic references. Font size of 10pt and 9pt are acceptable.</p>
             <p align="justify"><h4>Page size</h4>
             <p align="justify">The page size for this ACM publication is US Letter Portrait (8.5×11 inches). Submissions that do not conform to the ACM standards, templates, and formats will be returned to the author for corrections and/or alterations.</p>
-            <p align="justify"><h4>File naming scheme</h4>
-            <p align="justify">Name your final submission according to the ACM convention: firstauthorname.pdf (e.g. JanetSmith.pdf) using the name of the first author.</p>
+            
             <p align="justify"><h4>Title</h4>
             <p align="justify">Must be in Initial Caps Meaning First Letter of the Main Words Should be Made Capital Letters. Ex: note the Capital Letter “M” in Must, Meaning, and Main, the Capital Letter “C” in Caps and Capital and the Capital Letter “L” in Letter and Letters.</p>
-            <p align="justify"><b>Note:</b> Experience papers should bear the prefix ‘Experience Paper:’ in the title.</p>
+            
             <p align="justify"><h4>Authors’ complete names, email, affiliation and affiliation location</h4>
             <p align="justify">Prior to submitting, be sure to update the final version of your PDF to include all authors full names, and correct affiliation names, location, and other information under the title of the paper. See the first page of the <a href="http://ctan.uib.no/macros/latex/contrib/acmart/samples/sample-sigconf.pdf" target="_blank">ACM sample pdf</a>.</p>
             <p align="justify"><h4>Abstract</h4>
@@ -260,19 +261,41 @@
             <h4>Images and Figures</h4>
             <p align="justify">Below are some recommendations to ensure good print reproduction of the images, figures, and illustrations utilized in your submission.</p>
             <p align="justify"><b>Colors and Black & White (Gray Scale) Print Testing.</b> If you have any images in color, please print your paper out in black and white to ensure that the tones and screens used in your images or figures reproduce well in black and white, too. However, your images will appear in full color in any distributed electronic proceedings and in the ACM digital library.</p>
-            <p align="justify"><b>Resolution & CMYK.</b> Figures, charts, and diagrams should use a vector image format (e.g. PDF, SVG). Raster images (e.g. photographs) should be at least 300 or 600 dpi for quality reproduction and saved as .tiff images (or other compatible formats that support print-quality resolution). When creating or revising your images for inclusion in the paper, we recommend choosing CMYK (and not RGB) as the color profile.</p>
-            <p align="justify"><b>TIFF/PNG versus JPG (JPEG) image.</b> For raster images (e.g. photos), TIFFs are preferred for press applications where quality takes priority over file size. When TIFFs are compressed (using LZW compression option when saving from Adobe Photoshop, for example), no image data is lost, thus ensuring maximum quality. A JPEG is a compressed image format designed to keep the file size small, which makes it ideal for use in web graphics. However, to achieve this, the JPEG format actually removes precision from the image. This is referred to as a lossy compression system. On a printout, the removed data tends to show up as blocky areas of a solid color, or ghosting near high-contrast changes. At higher print resolutions (a minimum of 200 dpi), there’s usually enough data in the JPEG file for the compression artefacts to be very noticeable. PNG files are also a good alternative as the format is also lossless.</p>
+            <p align="justify"><b>Vectorial and Raster Images</b> Figures, charts, and diagrams should use a vector image format whenever possible (e.g. PDF, EPS, SVG). Alternatively, raster images (e.g. photographs) can be used – the resolution should be at least 300 or 600 dpi for quality reproduction. Please also consider the tradeoffs between lossless and lossy image formats. For instance, PNG images will not exhibit compression artefacts, but the file size might be larger than with the JPEG format. The compression ratio of JPEG images should be high enough so that compression artefacts are not visible.</p>
+            
             <p align="justify"><b>Rules/Lines.</b> Rules used in your graphs, tables or charts must be at least 0.5 point in stroke and black for quality reproduction. Finer lines and points than this will not reproduce well, even if you can see them on your laser printed hardcopy when checked — your laser printers will usually have a far lower resolution than the imagesetters that will be used.</p>
             <p align="justify"><b>Fonts.</b> If your figure uses custom or any non-standard font, the characters may appear differently when printed in the proceedings. Remember to check your figure creation to ensure that all fonts are embedded or included in the figure correctly. Be sure that your images do not contain any Type 3 fonts.</p>
             <p align="justify"><b>Transparency.</b> If a figure or image is assembled from multiple images, the images must be embedded, and layers be flattened or grouped together properly in the file. Transparency must be flattened.</p>
             <h4>Page Numbering, Headers, and Footers</h4>
             <p align="justify">Your final submission <b>MUST NOT</b> contain any footer or header string information at the top or bottom of each page, nor any page numbering. The submissions will be paginated in a determined order by the chairs and page numbers added to the PDF during the compiling, indexing, and pagination process.</p>
+            <p align="justify">The header must be set as per the ACM sigconf template - the top-left and top-right parts will contain (in alternance on each page) the conference name and information, the paper title, and/or the list of authors (or: the name of the first author followed by et al. if the string is too long). This should be automatically produced by the template.</p>
             <h4>Acknowledgements</h4>
             <p align="justify">It is the contact or submitting author’s responsibility to be sure that any funding or special contribution acknowledgements are included in the final version submitted as required by any research, financial, or other grants received (by using the “Acknowledgements” section before the References section). See page 4 of the <a href="http://ctan.uib.no/macros/latex/contrib/acmart/samples/sample-sigconf.pdf" target="_blank">ACM sample pdf</a>.</p>
             <h4>Submitting the Required Files</h4>
             <p align="justify">When your final version is ready, you need to upload your zip file with PDF and source files using <b>HotCrp</b>. As an accepted author, you have access to the proceedings section of <b>HotCrp</b>.</p>
             <p align="justify">You will see a confirmation screen after a successful upload to HotCrp. As well, a confirmation email will be sent to the contact’s email address entered on the submission page.</p>
             <p align="justify">If changes are needed, then you will be contacted by one of the publication chairs. In that case, you will receive specific information about how to revise your submission to meet requirements, and a new deadline will be given to submit the corrected material. You are required by the chairs to adhere to this new deadline so the publication is not delayed. Failure to implement the requested changes could result in the paper being withdrawn.</p>
+            <h4>ACM Template Checklist</h4>
+            <p>We are providing a checklist that summarizes the different items of the ACM template that must be included in your paper. As proceedings chairs, we have a large amount of papers that we must manually validate – the large majority of issues that we find in the camera-ready papers are ACM template items that were omitted, either mistakenly or to squeeze space in the draft submission. <i>The proceedings chair would appreciate it if you could go through the following check-list prior to submitting your camera-ready paper. We thank you in advance for your cooperation.</i></p>
+            <p align="justify"> Font page:</p>
+            <ul>
+              <li>Title and authors</li>
+              <li>Abstract</li>
+              <li>CCS Concepts block</li>
+              <li>Keywords block</li>
+              <li>Statement on permission to make digital copies, ACM copyright information, ACM ISBN, DOI URL (conference location should be: Quebec QC, Canada, with the proper dates and conference name set)</li>
+              <li>ACM Reference Format block (containing the paper citation, number of pages, and DOI)</li>
+            </ul>
+            <p align="justify">Formatting:</p>
+            <ul>
+              <li>Headers are enabled starting on page 2 (this should be the default)</li>
+              <li>No footer, no pagination</li>
+              <li>Font size must be 9 or 10</li>
+              <li>The sigconf class option should be used (and not sigplan)</li>
+            </ul>
+            <p align="justify">Page limit is respected (see above depending on the track/workshop)
+            </p>
+            <p align="justify">References are properly formatted</p>
             <h4>Questions</h4>
             <p align ="justify">If you still have questions or problems about the copyrights and formatting requirements, please email <a href="mailto:julien.gascon-samson@etsmtl.ca">julien.gascon-samson@etsmtl.ca</a> and <a href="mailto:giuseppe.dimodica@unibo.it">giuseppe.dimodica@unibo.it</a> <b>with the conference name (Middleware 2022) in the subject line</b>.</p>
           </div>
